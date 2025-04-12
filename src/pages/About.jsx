@@ -1,14 +1,13 @@
 export default function About() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <h2 className="text-3xl font-bold mb-4">About Us</h2>
-      <p className="mb-4">
-        We are a group of researchers and engineers passionate about computer
-        vision, machine learning, and AI for good. Our mission is to provide open
-        datasets and engaging challenges to foster innovation and collaboration
-        in the AI community.
+    <div className="max-w-4xl mx-auto px-6 py-16">
+      <h2 className="text-4xl font-bold mb-6">About Us</h2>
+      <p className="text-gray-700 mb-4">
+        We are a community of machine learning researchers and engineers committed to building
+        open, reproducible benchmarks and datasets. Our mission is to accelerate
+        innovation in AI through collaborative challenges and accessible resources.
       </p>
-      <p>Contact: contact@mycompetition.org</p>
+      <p className="text-gray-700">📧 Contact us at: <strong>contact@mycompetition.org</strong></p>
     </div>
   );
 }

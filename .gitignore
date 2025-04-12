@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Optional: editor swap files
+*.swp
+*.swo
+
+# Optional: IDE junk
+.idea/
+*.iml
+*.sublime*
+
+# Optional: OS metadata
+Thumbs.db
