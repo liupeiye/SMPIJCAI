@@ -25,11 +25,11 @@ export default function About() {
     <div className="mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
       <h2 className="text-3xl font-bold mb-8">About Us</h2>
-      <p className="text-gray-700 mb-8">
+      {/* <p className="text-gray-700 mb-8">
         We are a community of machine learning researchers and engineers committed to building
         open, reproducible benchmarks and datasets. Our mission is to accelerate
         innovation in AI through collaborative challenges and accessible resources.
-      </p>
+      </p> */}
       <p className="text-gray-700">📧 Contact us at: <strong>social.media.prediction@gmail.com</strong></p>
       </div>
     </div>

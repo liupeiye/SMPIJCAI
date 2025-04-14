@@ -6,9 +6,7 @@ export default function Dataset() {
         <h2 className="text-4xl font-bold mb-8">Dataset Description</h2>
         <p className="text-gray-700 mb-8">
         <strong>The Social Media Prediction Video Dataset (SMPD)</strong>. SMPD-Video is a large-scale social video dataset, consisting of 6K social short-form videos from 4.5K users. It provides anonymized photo-sharing data with rich metadata, user profiles, videos, posts, time, location, etc. 
-
         </p>
-
         <div className="flex space-x-4">
           <a
             href="https://huggingface.co/datasets/smpchallenge/SMP-Video"
