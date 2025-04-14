@@ -18,7 +18,11 @@ export default function App() {
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <footer className="bg-[#2a2a2a] text-gray-300 text-sm py-10 mt-20 border-t border-gray-700">
+          <div className="text-center text-xs text-gray-500 mt-8">Copyright © 2025. SMP Challenge Organization Committee. All rights reserved.</div>
+        </footer>
       </div>
     </Router>
+    
   );
 }
