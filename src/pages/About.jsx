@@ -24,7 +24,7 @@ export default function About() {
     <>
     <div className="mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
-      <h2 className="text-3xl font-bold mb-8">About Us</h2>
+      <h2 className="text-4xl font-bold mb-8">About Us</h2>
       {/* <p className="text-gray-700 mb-8">
         We are a community of machine learning researchers and engineers committed to building
         open, reproducible benchmarks and datasets. Our mission is to accelerate
@@ -37,7 +37,7 @@ export default function About() {
 
     <div className="bg-gray-100 mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
-        <h2 className="text-3xl font-bold mb-8">Citation</h2>
+        <h2 className="text-4xl font-bold mb-8">Citation</h2>
         <p className="text-lg text-gray-700 mb-8">
         If you like or use the resources from the challenge, please read and cite the following references:</p>
         <pre className="whitespace-pre-wrap text-sm text-gray-800">

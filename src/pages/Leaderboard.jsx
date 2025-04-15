@@ -2,7 +2,7 @@ export default function Leaderboard() {
     return (
       <>
 
-        <div className="bg-gray-100 mx-auto px-6 py-8">
+        <div className="bg-gray-100 mx-auto px-6 py-16">
           <div className="max-w-5xl mx-auto text-left">
             <h2 className="text-4xl font-bold mb-8">Submission</h2>
             <p className="text-lg text-gray-700 mb-8">
@@ -38,7 +38,7 @@ export default function Leaderboard() {
           </div>
       </div>
 
-        <div className="bg-gray-100 mx-auto px-6 py-8">
+        <div className="bg-gray-100 mx-auto px-6 py-16">
           <div className="max-w-5xl mx-auto text-left">
             <h2 className="text-4xl font-bold mb-8">Evaluation</h2>
             <p className="text-lg text-gray-700 mb-8">
@@ -50,7 +50,7 @@ export default function Leaderboard() {
 
       
 
-      <div className="mx-auto px-6 py-12">
+      <div className="mx-autopx-6 py-16">
         <div className="max-w-5xl mx-auto text-left">
             <h2 className="text-3xl font-bold mb-8">Leaderboard</h2>
             <p className="text-lg text-gray-700 mb-8">

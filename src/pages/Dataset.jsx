@@ -39,7 +39,7 @@ export default function Dataset() {
 
     <div className="bg-gray-100 mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
-        <h2 className="text-3xl font-bold mb-8">Data Usage</h2>
+        <h2 className="text-4xl font-bold mb-8">Data Usage</h2>
         Teams are allowed to train their models using the provided training set. The test set, which remains unreleased and unknown to participants, will be used by the organizers for final evaluation to ensure a fair and unbiased assessment of all submissions.
 
         <table className="min-w-full mt-8 bg-white shadow-md rounded">
@@ -67,7 +67,7 @@ export default function Dataset() {
 
     <div className="mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
-        <h2 className="text-3xl font-bold mb-8">User Data</h2>
+        <h2 className="text-4xl font-bold mb-8">User Data</h2>
           <pre class=" prettyprint lang-json">
             <code>
               "uid": "USER00004717",<br />
@@ -87,7 +87,7 @@ export default function Dataset() {
 
     <div className="bg-gray-100 mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
-        <h2 className="text-3xl font-bold mb-8">Video Data</h2>
+        <h2 className="text-4xl font-bold mb-8">Video Data</h2>
           <pre class=" prettyprint lang-json">
             <code>
             "vid": "VIDEO00004528",<br />
@@ -107,7 +107,7 @@ export default function Dataset() {
 
     <div className="mx-auto px-6 py-16">
       <div className="max-w-5xl mx-auto text-left">
-        <h2 className="text-3xl font-bold mb-8">Post Data</h2>
+        <h2 className="text-4xl font-bold mb-8">Post Data</h2>
           <pre class=" prettyprint lang-json">
             <code>
             "pid": "POST00004593",<br />
