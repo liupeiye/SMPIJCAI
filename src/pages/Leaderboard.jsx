@@ -1,6 +1,43 @@
 export default function Leaderboard() {
     return (
       <>
+
+        <div className="bg-gray-100 mx-auto px-6 py-8">
+          <div className="max-w-5xl mx-auto text-left">
+            <h2 className="text-4xl font-bold mb-8">Submission</h2>
+            <p className="text-lg text-gray-700 mb-8">
+            <strong>Step1: Login</strong><br /> 
+            Participants must log in to the competition platform using their registered credentials to access the submission portal.<br />
+
+            <strong>Step2: Submit </strong><br />
+            Upload your entry (e.g., result files, documents, or code) in the specified format and according to the guidelines before the deadline.<br /> 
+
+            <strong>Step3: Check Result</strong><br />
+            After submission, participants can track the evaluation status and will be notified once results are announced.
+
+            </p>
+          </div>
+        </div>
+        <div className=" mx-auto px-6 py-16">
+          <div className="max-w-5xl mx-auto text-left">
+            <h2 className="text-4xl font-bold mb-8">Submission Format</h2>
+            <p className="text-lg text-gray-700 mb-8">
+            The submission is required to be formatted in a CSV File as follows (including header):
+            <pre className="prettyprint lang-json">
+            {`{
+            pid, popularity_score
+            POST00005748,0.1
+            POST00004665,0.2
+            '''
+            }`}
+            </pre>
+            The submission CSV file should contain 2001 lines.
+
+
+            </p>
+          </div>
+      </div>
+
         <div className="bg-gray-100 mx-auto px-6 py-8">
           <div className="max-w-5xl mx-auto text-left">
             <h2 className="text-4xl font-bold mb-8">Evaluation</h2>
@@ -11,40 +48,17 @@ export default function Leaderboard() {
           </div>
       </div>
 
-      <div className=" mx-auto px-6 py-16">
-          <div className="max-w-5xl mx-auto text-left">
-            <h2 className="text-4xl font-bold mb-8">Submission</h2>
-            <p className="text-lg text-gray-700 mb-8">
-            Each submission is required to be formatted in a JSON File as follows.
-            <pre className="prettyprint lang-json">
-            {`{
-    "version": "VERSION 1.2",
-    "result": [
-      {
-        "post_id": "post6374637",
-        "popularity_score": 2.1345
-      },
-      ...
-      {
-        "post_id": "post3637373",
-        "popularity_score": 3.1415
-      }
-    ],
-    "external_data": {
-      "used": "true",
-      "details": "VGG-19 pre-trained on ImageNet training set"
-    }
-            }`}
-            </pre>
-            </p>
-          </div>
-      </div>
+      
 
-      <div className="bg-gray-100 mx-auto px-6 py-12">
+      <div className="mx-auto px-6 py-12">
         <div className="max-w-5xl mx-auto text-left">
             <h2 className="text-3xl font-bold mb-8">Leaderboard</h2>
             <p className="text-lg text-gray-700 mb-8">
-            Please check that the leaderboard will be released after the challenge ends.</p>
+            The competition will maintain both a public and a private leaderboard.<br />
+
+            The public leaderboard will show the evaluation performances. The private leaderboard will be used for the final evaluation and will include non-overlapping data from the public leaderboard.<br />
+
+            The final ranking is determined by the rankings across all evaluation metrics after the Submission Due.</p>
           </div>
       </div>
       </>

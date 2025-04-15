@@ -10,11 +10,11 @@ export default function Dataset() {
         <div className="flex space-x-4">
           <a
             href="https://huggingface.co/datasets/smpchallenge/SMP-Video"
-            className="inline-block px-6 py-3 bg-orange-500 text-white rounded hover:bg-orange-600 transition"
+            className="inline-block px-12 py-3 bg-orange-500 text-white rounded hover:bg-orange-600 transition"
           >
-            Dataset
+            Dataset Download
           </a>
-          <a
+          {/* <a
             href="https://huggingface.co/datasets/smpchallenge/SMP-Video/viewer/posts/train"
             className="inline-block px-6 py-3 bg-teal-500 text-white rounded hover:bg-teal-600 transition"
           >
@@ -31,7 +31,7 @@ export default function Dataset() {
             className="inline-block px-6 py-3 bg-fuchsia-500 text-white rounded hover:bg-fuchsia-600 transition"
           >
             Test Data
-          </a>
+          </a> */}
         </div>
       </div>
       
