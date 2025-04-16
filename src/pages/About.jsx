@@ -9,8 +9,8 @@ const team = [
   { name: "Bo Wu", affiliation: "MIT-IBM Watson AI Lab", email: "bo.wu@ibm.com", img: bw },
   { name: "Peiye Liu", affiliation: "Alibaba Group", email: "liupeiye.lpy@alibaba-inc.com", img: py },
   { name: "Qiushi Huang", affiliation: "University of Surrey", email: "qiushi.huang@surrey.ac.uk", img: qs },
-  { name: "Jia Wang", affiliation: "National Yang Ming Chiao Tung University", email: "vicky.ee08@nycu.edu.tw", img: wj },
-  { name: "Zhaoyang Zeng", affiliation: "Tencent", email: "zhaoyanzeng@tencent.com", img: zy },
+  { name: "Jia Wang", affiliation: "Guangdong Pharmaceutical University", email: "vicky.ee08@nycu.edu.tw", img: wj },
+  { name: "Zhaoyang Zeng", affiliation: "International Digital Economy Academy", email: "zhaoyanzeng@tencent.com", img: zy },
   // { name: "Wen-Huang Cheng", affiliation: "National Yang Ming Chiao Tung University", email: "whcheng@nycu.edu.tw", img: "../assets/wenhuangcheng.jpg" },
   { name: "Bei Liu", affiliation: "Microsoft Research Asia", email: "bei.liu@microsoft.com", img: lb },
   // { name: "Jiebo Luo", affiliation: "University of Rochester", email: "jluo@cs.rochester.edu", img: "../assets/jieboluo.jpg" },
@@ -87,9 +87,9 @@ export default function About() {
               <div className="p-4">
                 <h4 className="text-lg font-semibold mb-1">{member.name}</h4>
                 <p className="text-sm text-gray-600 mb-2">{member.affiliation}</p>
-                <a href={`mailto:${member.email}`} className="text-sm text-blue-600 hover:underline">
+                {/* <a href={`mailto:${member.email}`} className="text-sm text-blue-600 hover:underline">
                   {member.email}
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

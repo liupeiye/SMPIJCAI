@@ -45,7 +45,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-left">
           <h2 className="text-3xl font-bold mb-8">Important Dates</h2>
           <p className="text-lg text-gray-700 mb-8">
-          <li>[April 15, 2025]: The challenge website is opened.</li>
+          <li>[April 20, 2025]: The challenge website is opened.</li>
           <li>[April 20 - June 15, 2025]: Results Submission.</li>
           <li>[June 15 - June 25, 2025]: Evaluation and Reproducibility Review.</li>
           <li>[June 25, 2025]: Leaderboard Notification.</li>
