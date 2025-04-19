@@ -4,6 +4,9 @@ import qs from "../assets/qiushihuang.jpeg";
 import wj from "../assets/jiawang.jpg"; 
 import zy from "../assets/zhaoyangzeng.png"; 
 import lb from "../assets/beiliu.jpg"; 
+import jbl from "../assets/jieboluo.jpg";
+import wh from "../assets/wenhuangcheng.jpg";
+
 
 const team = [
   { name: "Bo Wu", affiliation: "MIT-IBM Watson AI Lab", email: "bo.wu@ibm.com", img: bw },
@@ -11,9 +14,9 @@ const team = [
   { name: "Qiushi Huang", affiliation: "University of Surrey", email: "qiushi.huang@surrey.ac.uk", img: qs },
   { name: "Jia Wang", affiliation: "Guangdong Pharmaceutical University", email: "vicky.ee08@nycu.edu.tw", img: wj },
   { name: "Zhaoyang Zeng", affiliation: "International Digital Economy Academy", email: "zhaoyanzeng@tencent.com", img: zy },
-  // { name: "Wen-Huang Cheng", affiliation: "National Yang Ming Chiao Tung University", email: "whcheng@nycu.edu.tw", img: "../assets/wenhuangcheng.jpg" },
   { name: "Bei Liu", affiliation: "Microsoft Research Asia", email: "bei.liu@microsoft.com", img: lb },
-  // { name: "Jiebo Luo", affiliation: "University of Rochester", email: "jluo@cs.rochester.edu", img: "../assets/jieboluo.jpg" },
+  { name: "Wen-Huang Cheng", affiliation: "National Taiwan University", email: "whcheng@nycu.edu.tw", img: wh },
+  { name: "Jiebo Luo", affiliation: "University of Rochester", email: "jluo@cs.rochester.edu", img: jbl },
   
 
 ];
