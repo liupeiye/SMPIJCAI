@@ -19,6 +19,9 @@ export default function Home() {
           <Link to="/competition" className="px-6 py-3 bg-green-600 text-white rounded shadow hover:bg-green-700 transition">
             Join Competition
           </Link>
+          <Link to="https://huggingface.co/spaces/smp-challenge/SMPDVideo" className="px-6 py-3 bg-orange-500 text-white rounded shadow hover:bg-orange-600 transition">
+            Sumbit Results
+          </Link>
         </div>
       </div>
 

@@ -2,22 +2,7 @@ export default function Leaderboard() {
     return (
       <>
 
-        <div className="bg-gray-100 mx-auto px-6 py-16">
-          <div className="max-w-5xl mx-auto text-left">
-            <h2 className="text-4xl font-bold mb-8">Submission</h2>
-            <p className="text-lg text-gray-700 mb-8">
-            <strong>Step1: Login</strong><br /> 
-            Participants must log in to the competition platform using their registered credentials to access the submission portal.<br />
-
-            <strong>Step2: Submit </strong><br />
-            Upload your entry (e.g., result files, documents, or code) in the specified format and according to the guidelines before the deadline.<br /> 
-
-            <strong>Step3: Check Result</strong><br />
-            After submission, participants can track the evaluation status and will be notified once results are announced.
-
-            </p>
-          </div>
-        </div>
+        
         <div className=" mx-auto px-6 py-16">
           <div className="max-w-5xl mx-auto text-left">
             <h2 className="text-4xl font-bold mb-8">Submission Format</h2>
@@ -52,7 +37,7 @@ export default function Leaderboard() {
 
       <div className="mx-autopx-6 py-16">
         <div className="max-w-5xl mx-auto text-left">
-            <h2 className="text-3xl font-bold mb-8">Leaderboard</h2>
+            <h2 className="text-4xl font-bold mb-8">Leaderboard</h2>
             <p className="text-lg text-gray-700 mb-8">
             The competition will maintain both a public and a private leaderboard.<br />
 
