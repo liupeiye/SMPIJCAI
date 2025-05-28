@@ -29,6 +29,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-left">
           <h2 className="text-3xl font-bold mb-8">News</h2>
           <p className="text-lg text-gray-700 mb-8">
+          <li>[2025-04-20]: The new evaluation portal is opened to participants.</li>
           <li>[2025-04-15]: The challenge website is opened.</li>
           <li>[2025-04-01]: We will host the 1st Social Media Prediction Challenge with Video track this year.</li>
           </p>
@@ -49,8 +50,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8">Important Dates</h2>
           <p className="text-lg text-gray-700 mb-8">
           <li>[April 20, 2025]: The challenge website is opened.</li>
-          <li>[April 20 - June 15, 2025]: Results Submission.</li>
-          <li>[June 15 - June 25, 2025]: Evaluation and Reproducibility Review.</li>
+          <li>[April 20 - June 20, 2025]: Results Submission.</li>
+          <li>[June 20 - June 25, 2025]: Evaluation and Reproducibility Review.</li>
           <li>[June 25, 2025]: Leaderboard Notification.</li>
           <li>[July 15, 2025]: Solution Paper Submission.</li>
           <li>[July 20, 2025]: Notification.</li>
