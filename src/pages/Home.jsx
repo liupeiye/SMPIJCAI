@@ -53,7 +53,6 @@ export default function Home() {
           <li>[April 20 - June 25, 2025]: Results Submission.</li>
           <li>[June 25 - June 30, 2025]: Evaluation and Reproducibility Review.</li>
           <li>[June 30, 2025]: Leaderboard Notification.</li>
-          <li>[July 15, 2025]: Solution Paper Submission.</li>
           <li>[July 20, 2025]: Notification.</li>
           </p>
         </div>
